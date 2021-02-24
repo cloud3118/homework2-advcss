@@ -1,0 +1,21 @@
+header {
+    text-align: right;
+    background-color: rgb(187, 183, 183);
+    font-size: 35px;
+    color: rgba(23, 129, 179, 0.733);
+    border-color: black;
+    display: inline-block ;
+           
+}
+
+.nav-link {
+    color: rgba(23, 129, 179, 0.733);
+    text-shadow: white;
+    font-size: 20px;
+}
+
+#henry {
+    width: 100px;
+    height: 100px;
+    float: left;
+    }
