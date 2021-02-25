@@ -19,12 +19,12 @@ h1 {
     font-size: 5em;
 }
 
-nav {
+.navbar {
     float: right;
     margin-top: 75px;
 }
 
-nav ul li {
+.navbar .navbar_list .navbaritem {
     display: inline-block;
     font-size: 1.5em;
 
