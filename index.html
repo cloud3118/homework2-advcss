@@ -6,30 +6,74 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Casey Loudermilk Portfolio</title>
         <link rel="stylesheet" href="./assets/reset.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/style.css">
 
     </head>
     <body>
-        <header>Casey Loudermilk-Developer in Training
-            <img id=henry src="./assets/casey_henry.JPG" alt="pic-of-casey-henry">            
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
+        <header>
+          <div class="mylogo">
+            <img src="./assets/casey_henry.JPG" alt="pic-of-casey-henry">
+          </div>            
+          <nav class="navbar">
+            <ul class="navbar_list">
+              <li class="navbaritem"><a href="#mystory" class="navbarlink"></a>About Me</li>
+              <li class="navbaritem"><a href="#mywork" class="navbarlink"></a>My Work</li> 
             </ul>
-            
+         </nav>  
         </header>
         
-        
+        <!-- About Me Section -->
+        <section class="aboutme" id="mystory">
+          <h1 class="sectiontitle">Get To Know Me</h1>
+          <p class="sectiontext">
+            This is a section about me
+          </p>
+          <img src="./assets/dad_son_work.jpg" alt="casey-henry-at-computer">
+        </section>
+
+        <!-- My Work Section -->
+        <section class="services" id="mywork">
+          <h1 class="sectiontitle">Taking Care of Business</h1>
+            <div class="projects">
+              
+              <div class="individualproject">
+                <h2 class="project-title">Project 1 - Code Refractor</h2>
+                  <p class="sectiontext">
+                    In this project we....
+                  </p>
+                  <a href="#" class="projectlink" alt="link-to-my-portfolio-project"></a>
+                    <img src="#" alt="snapshot-of-portfolio-project" class="projectimage">
+              </div>
+              
+              <div class="individualproject">
+                <h2 class="project-title">Project 2 - My Portfolio</h2>
+                  <p class="sectiontext">
+                    In this project we....
+                  </p>
+                  <a href="#" class="projectlink" alt="link-to-my-portfolio-project"></a>
+                    <img src="#" alt="snapshot-of-portfolio-project" class="projectimage">
+              </div>
+
+            </div>
+
+          
+        </section>
+
+        <!-- Footer - Contact info -->
+
+        <footer>
+          <h3 class="footerheader">Email</h3>
+          <a href="mailto:cloud3118@gmail.com" class="footer-link">cloud3118@gmail.com</a>
+          <ul class="contactinfo">
+            <h3 class="footerheader">contact1</h3>
+            <li class="contactitem"><a class="contactitemlink" href="#">placeholder1</a></li>
+            <h3 class="footerheader">contact2</h3>
+            <li class="contactitem"><a class="contactitemlink" href="#">placeholder2</a></li>
+            <h3 class="footerheader">contact3</h3>
+            <li class="contactitem"><a class="contactitemlink" href="#">placeholder3</a></li>
+          </ul>
+
+        </footer>
+
     </body>
 </html>
