@@ -1,6 +1,7 @@
 /* Header Styling */
 body {
     border: rgb(127, 228, 194) 15px solid;
+    
 }
 
 
@@ -46,11 +47,28 @@ h1 {
     color: black
 }
 
+/* main {
+    display: flex;
+    flex-direction: column;
+} */
+
 /* About Me Styling */
 
 .aboutme {
-    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    border-bottom:rgb(127, 228, 194) solid 15px;
+}
 
+#workingdad {
+    width: 400px;
+    height: 500px;
+    border: red 5px solid;
+    
+}
+
+.aboutmeinfo {
+    border: red 5px solid;
 }
 
 
@@ -58,5 +76,6 @@ h1 {
 
 .sectiontitle {
     font-size: 3em;
+    font-family: 'Poppins', sans-serif;
 
 }
