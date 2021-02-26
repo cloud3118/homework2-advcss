@@ -57,18 +57,20 @@ h1 {
 .aboutme {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    column-gap: 1em;
     border-bottom:rgb(127, 228, 194) solid 15px;
+    background-color: rgb(226, 222, 222);
 }
 
 #workingdad {
     width: 400px;
     height: 500px;
-    border: red 5px solid;
+    
     
 }
 
 .aboutmeinfo {
-    border: red 5px solid;
+    
 }
 
 
@@ -78,4 +80,9 @@ h1 {
     font-size: 3em;
     font-family: 'Poppins', sans-serif;
 
+}
+
+.sectiontext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 }
