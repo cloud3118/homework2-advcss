@@ -7,6 +7,7 @@ body {
 Header {
     padding: 30px;
     border-bottom: rgb(127, 228, 194) 15px solid;
+    border-width: 100%;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(24, 94, 199);
     color: white;
