@@ -1,9 +1,12 @@
-
 /* Header Styling */
+body {
+    border: rgb(127, 228, 194) 15px solid;
+}
+
 
 Header {
     padding: 30px;
-    border: rgb(127, 228, 194) 15px solid;
+    border-bottom: rgb(127, 228, 194) 15px solid;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(24, 94, 199);
     color: white;
@@ -36,4 +39,19 @@ h1 {
 
 .dividerbar {
     color: black
+}
+
+/* About Me Styling */
+
+.aboutme {
+    padding: 30px;
+
+}
+
+
+/* Section Styling */
+
+.sectiontitle {
+    font-size: 3em;
+
 }
