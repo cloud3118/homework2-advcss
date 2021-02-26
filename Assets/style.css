@@ -47,11 +47,6 @@ h1 {
     color: black
 }
 
-/* main {
-    display: flex;
-    flex-direction: column;
-} */
-
 /* About Me Styling */
 
 .aboutme {
@@ -65,13 +60,53 @@ h1 {
 #workingdad {
     width: 400px;
     height: 500px;
-    
+}
+
+/* My Work Styling */
+
+.projectcontainer {
+    border: red solid 5px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 1 em;
+    background-color: rgb(226, 222, 222);
+}
+
+.classprojects {
+    border: red solid 5px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 1em;
+    grid-auto-rows: 100px, auto;
+}
+
+.classprojects > div {
+    padding: 10px;
+    border: red solid 1px;
     
 }
 
-.aboutmeinfo {
-    
+.projecttitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
 }
+
+.project1 {
+    justify-self: center;
+}
+
+.project2 {
+    justify-self: center;
+}
+
+.projecttext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+
+
+
 
 
 /* Section Styling */
@@ -86,3 +121,4 @@ h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
+
