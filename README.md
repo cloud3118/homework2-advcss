@@ -38,7 +38,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ![portfolio snapshot](./assets/portfoliopage.png)
 
-![portfolio website](#)
+![portfolio website](https://cloud3118.github.io/homework2-advcss/)
 
 
 ## Kudos
