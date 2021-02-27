@@ -143,3 +143,47 @@ h1 {
     font-size: 20px;
 }
 
+/* footer styling */
+
+footer {
+    background-color: rgb(226, 222, 222);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: flex-end;
+    grid-template-rows: 1fr;
+}
+
+.far {
+    font-size: 50px;
+    color: rgb(24, 94, 199);
+}
+
+.far:hover {
+    color: rgb(62, 136, 173);
+}
+
+.mylogofooter .footer-link{
+    width: 80px;
+    height: 80px;
+}
+
+.fab {
+    font-size: 50px;
+    color: rgb(24, 94, 199);
+}
+
+.fab:hover {
+    color: rgb(62, 136, 173);
+}
+
+.phonenumber {
+    color: rgb(24, 94, 199);
+    font-weight: bolder;
+    display: flex;
+    align-content: flex-end;
+}
+
+.fas {
+    font-size: 30px;
+}
