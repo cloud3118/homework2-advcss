@@ -36,9 +36,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Website Link/Screenshot
 
-![portfolio snapshot](./assets/portfoliopage.png)
+![portfolio snapshot](./assets/images/portfoliopage.png "Snapshot of this Project")
 
-![portfolio website](https://cloud3118.github.io/homework2-advcss/)
+![portfolio website](https://cloud3118.github.io/homework2-advcss/ "link to this website")
 
 
 ## Kudos
