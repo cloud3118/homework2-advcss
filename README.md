@@ -1,28 +1,19 @@
 # 02 Advanced CSS: Portfolio
 
-## Your Task
+## What It Is
 
-Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
-
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
-
-With these points in mind, in this homework you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
-
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
-
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. 
+ This was my first website from start to finish.  This website is my virtual portfolio that I will continually add my projects to throughout my coding development journy.  Although it is rudimentary, I am very proud of it. 
 
 
-## User Story
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+## What I did
+
+I created both an html and css file from scratch for the 1st time.  I was able to link the style sheet to the html page and build out both per the requirements below.  I added styling of my choice and attempted to use semantic html elements to create clean code for others to follow.
+
+I was able to to create a few effects and learn a lot along the way, such as css grid layout.  I was able to effectively embed images and make usable links to other sites.
 
 
-## Acceptance Criteria
+## Acceptance Criteria I followed
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
@@ -43,54 +34,19 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 
-## Mock-Up
+## Website Link/Screenshot
 
-The following animation shows the web application's appearance and functionality:
+![portfolio snapshot](./assets/portfoliopage.png)
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![portfolio website](#)
 
 
-## Grading Requirements
+## Kudos
 
-This homework is graded based on the following criteria: 
+I want to thank Awesomefonts.com for the social media pictures.
 
-### Technical Acceptance Criteria: 40%
+My tutor Juan Delegado was instrumental in helping me figure out some of my folies
 
-* Satisfies all of the above acceptance criteria.
+The entire GT Bootcamp Teaching team for their continued patience as I work through issues with my code.
 
-### Deployment: 32%
 
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
