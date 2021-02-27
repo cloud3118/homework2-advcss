@@ -1,14 +1,13 @@
 /* Header Styling */
 body {
     border: rgb(127, 228, 194) 15px solid;
-    
 }
 
 
 Header {
     padding: 30px;
     border-bottom: rgb(127, 228, 194) 15px solid;
-    border-width: 100%;
+    border-width: 150%;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(24, 94, 199);
     color: white;
@@ -65,11 +64,12 @@ h1 {
 /* My Work Styling */
 
 .projectcontainer {
-    border: red solid 5px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
     column-gap: 1 em;
     background-color: rgb(226, 222, 222);
+    border-bottom:rgb(127, 228, 194) solid 15px;
 }
 
 .workinfo {
@@ -78,7 +78,7 @@ h1 {
 }
 
 .classprojects {
-    border: red solid 5px;
+    background-color: rgb(127, 228, 194);
     display: grid;
     grid-template-columns: 2fr 2fr;
     column-gap: 1em;
@@ -86,14 +86,14 @@ h1 {
 }
 
 .classprojects > div {
-    padding: 10px;
-    border: red solid 1px;
-    
+    padding: 10px;   
 }
 
 .projecttitle {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    color: rgb(24, 94, 199);
+    font-weight:bolder;
 }
 
 .project1 {
@@ -109,21 +109,24 @@ h1 {
     font-size: 12px;
 }
 
-
-.classprojectlink:hover {
-    color: #FF00FF;
-    transform: rotate(20deg);
-}
-
-.classprojectlink {
-    transition: transform .2s;
-    height: 300px;
-    width: 300px;
-}
-
 .coderefactor {
     width: 245px;
     height: 200px;
+    opacity: 0.9;
+}
+
+.coderefactor:hover {
+    opacity: 1.0;
+}
+
+.portfolioproject {
+    width: 200px;
+    height: 155px;
+    opacity: .9;
+}
+
+.portfolioproject:hover {
+    opacity: 1;
 }
 
 
