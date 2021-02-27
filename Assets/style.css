@@ -112,21 +112,21 @@ h1 {
 .coderefactor {
     width: 245px;
     height: 200px;
-    opacity: 0.9;
+    opacity: 1.0;
 }
 
 .coderefactor:hover {
-    opacity: 1.0;
+    opacity: 0.9;
 }
 
 .portfolioproject {
     width: 200px;
     height: 155px;
-    opacity: .9;
+    opacity: 1;
 }
 
 .portfolioproject:hover {
-    opacity: 1;
+    opacity: 0.9;
 }
 
 
@@ -140,7 +140,7 @@ h1 {
 
 .sectiontext {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* footer styling */
@@ -151,7 +151,6 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: flex-end;
-    grid-template-rows: 1fr;
 }
 
 .far {
@@ -186,4 +185,12 @@ footer {
 
 .fas {
     font-size: 30px;
+}
+
+@media screen and (max-width:690px){
+    footer > div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
