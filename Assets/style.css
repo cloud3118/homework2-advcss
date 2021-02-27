@@ -67,9 +67,14 @@ h1 {
 .projectcontainer {
     border: red solid 5px;
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: auto auto auto;
     column-gap: 1 em;
     background-color: rgb(226, 222, 222);
+}
+
+.workinfo {
+    display: grid;
+    grid-template-columns: auto;
 }
 
 .classprojects {
@@ -105,8 +110,21 @@ h1 {
 }
 
 
+.classprojectlink:hover {
+    color: #FF00FF;
+    transform: rotate(20deg);
+}
 
+.classprojectlink {
+    transition: transform .2s;
+    height: 300px;
+    width: 300px;
+}
 
+.coderefactor {
+    width: 245px;
+    height: 200px;
+}
 
 
 /* Section Styling */
